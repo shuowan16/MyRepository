@@ -1,0 +1,611 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1000</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>1000</width>
+    <height>600</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <layout class="QHBoxLayout" name="horizontalLayout_7">
+    <item>
+     <spacer name="horizontalSpacer_4">
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+      <property name="sizeHint" stdset="0">
+       <size>
+        <width>105</width>
+        <height>20</height>
+       </size>
+      </property>
+     </spacer>
+    </item>
+    <item>
+     <widget class="QWidget" name="widget_2" native="true">
+      <layout class="QVBoxLayout" name="verticalLayout_2">
+       <item>
+        <widget class="QWidget" name="widget_avatar" native="true">
+         <layout class="QHBoxLayout" name="horizontalLayout_6">
+          <item>
+           <spacer name="horizontalSpacer">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>40</width>
+              <height>20</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item>
+           <widget class="QLabel" name="Avatar_mainWindow">
+            <property name="text">
+             <string>TextLabel</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <spacer name="horizontalSpacer_2">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>40</width>
+              <height>20</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item>
+        <widget class="QWidget" name="infoDisplayInfoWidget_mainWindow" native="true">
+         <layout class="QVBoxLayout" name="verticalLayout">
+          <item>
+           <widget class="QWidget" name="widget_nameDisplay" native="true">
+            <layout class="QHBoxLayout" name="horizontalLayout_2">
+             <item>
+              <widget class="QLabel" name="label">
+               <property name="text">
+                <string>NAME:</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QLabel" name="nameDisplay">
+               <property name="text">
+                <string>name</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item>
+           <widget class="QWidget" name="widget_positionDisplay" native="true">
+            <layout class="QHBoxLayout" name="horizontalLayout_3">
+             <item>
+              <widget class="QLabel" name="label_3">
+               <property name="text">
+                <string>POSITION:</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QLabel" name="positionDisplay">
+               <property name="text">
+                <string>position</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item>
+           <widget class="QWidget" name="widget_numberDisplay" native="true">
+            <layout class="QHBoxLayout" name="horizontalLayout_4">
+             <item>
+              <widget class="QLabel" name="label_5">
+               <property name="text">
+                <string>NUMBER:</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QLabel" name="numberDisplay">
+               <property name="text">
+                <string>number</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item>
+           <widget class="QWidget" name="widget_payDisplay" native="true">
+            <layout class="QHBoxLayout" name="horizontalLayout_5">
+             <item>
+              <widget class="QLabel" name="label_6">
+               <property name="text">
+                <string>PAY:</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QLabel" name="payDisplay">
+               <property name="text">
+                <string>pay</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item>
+           <widget class="QWidget" name="widget_salesDisplay_only_SALESMAN" native="true">
+            <layout class="QHBoxLayout" name="horizontalLayout_8">
+             <item>
+              <widget class="QLabel" name="label_9">
+               <property name="text">
+                <string>SALES:</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QLabel" name="salesDisplay">
+               <property name="text">
+                <string>sales</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item>
+           <widget class="QWidget" name="widget_worktimeDisplay_only_TEC" native="true">
+            <layout class="QHBoxLayout" name="horizontalLayout_9">
+             <item>
+              <widget class="QLabel" name="label_8">
+               <property name="text">
+                <string>WORKTIME:</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QLabel" name="worktimeDisplay">
+               <property name="text">
+                <string>worktime</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="View_More_button_onlySALESMANAGER">
+         <property name="text">
+          <string>View More</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item>
+     <spacer name="horizontalSpacer_3">
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+      <property name="sizeHint" stdset="0">
+       <size>
+        <width>106</width>
+        <height>20</height>
+       </size>
+      </property>
+     </spacer>
+    </item>
+    <item>
+     <widget class="Line" name="lineV01">
+      <property name="orientation">
+       <enum>Qt::Vertical</enum>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <spacer name="horizontalSpacer_6">
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+      <property name="sizeHint" stdset="0">
+       <size>
+        <width>105</width>
+        <height>20</height>
+       </size>
+      </property>
+     </spacer>
+    </item>
+    <item>
+     <widget class="QWidget" name="widget_usersChoose" native="true">
+      <layout class="QVBoxLayout" name="verticalLayout_4">
+       <item>
+        <widget class="QWidget" name="widget_9" native="true">
+         <layout class="QVBoxLayout" name="verticalLayout_3">
+          <item>
+           <widget class="Line" name="line_3">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QWidget" name="widget_search" native="true">
+            <layout class="QGridLayout" name="gridLayout_2">
+             <item row="0" column="1">
+              <widget class="QPushButton" name="searchBYnumber_button_mainWindow">
+               <property name="text">
+                <string>Search(NUMBER)</string>
+               </property>
+              </widget>
+             </item>
+             <item row="0" column="0">
+              <widget class="QLineEdit" name="lineEdit_searchBYnum_mainWindow"/>
+             </item>
+             <item row="1" column="0">
+              <widget class="QLineEdit" name="lineEdit_searchBYname_mainWindow"/>
+             </item>
+             <item row="1" column="1">
+              <widget class="QPushButton" name="searchBYname_button_mainWindow">
+               <property name="text">
+                <string>Search(NAME)</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLabel" name="personalInfoChange_mainWindow">
+            <property name="text">
+             <string>    PersonalInformation change</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QWidget" name="widget_change" native="true">
+            <layout class="QGridLayout" name="gridLayout">
+             <item row="2" column="1">
+              <widget class="QPushButton" name="worktime_PersonalInfoChange">
+               <property name="text">
+                <string>worktime</string>
+               </property>
+              </widget>
+             </item>
+             <item row="3" column="1">
+              <widget class="QPushButton" name="pay_PersonalInfoChange_onlyOTHER">
+               <property name="text">
+                <string>Pay</string>
+               </property>
+              </widget>
+             </item>
+             <item row="0" column="1">
+              <widget class="Line" name="line_4">
+               <property name="orientation">
+                <enum>Qt::Horizontal</enum>
+               </property>
+              </widget>
+             </item>
+             <item row="2" column="0">
+              <widget class="QLineEdit" name="lineEdit_changeWorktime"/>
+             </item>
+             <item row="1" column="0">
+              <widget class="QLineEdit" name="lineEdit_changeSales"/>
+             </item>
+             <item row="1" column="1">
+              <widget class="QPushButton" name="sales_PersonalInfoChange">
+               <property name="text">
+                <string>sales</string>
+               </property>
+              </widget>
+             </item>
+             <item row="3" column="0">
+              <widget class="QLineEdit" name="lineEdit_changePay"/>
+             </item>
+            </layout>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item>
+        <widget class="Line" name="line_2">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QWidget" name="widget_11" native="true">
+         <layout class="QVBoxLayout" name="verticalLayout_5">
+          <item>
+           <widget class="QPushButton" name="put_into_blacklist_button_mainWindow">
+            <property name="text">
+             <string>put into blacklist</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="remove_from_blacklist_button_mainWindow">
+            <property name="text">
+             <string>remove from blacklist</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="delete_button_mainWindow">
+            <property name="text">
+             <string>delete </string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLabel" name="label_4">
+            <property name="text">
+             <string>Company:</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLabel" name="label_2">
+            <property name="text">
+             <string>戏说不是胡说</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLabel" name="label_7">
+            <property name="text">
+             <string>version:v1.0.0</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item>
+        <widget class="Line" name="line">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item>
+     <spacer name="horizontalSpacer_5">
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+      <property name="sizeHint" stdset="0">
+       <size>
+        <width>105</width>
+        <height>20</height>
+       </size>
+      </property>
+     </spacer>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1000</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuFile">
+    <property name="title">
+     <string>File</string>
+    </property>
+    <addaction name="actionNew_file"/>
+    <addaction name="actionOpen_file"/>
+   </widget>
+   <widget class="QMenu" name="menuAdd">
+    <property name="title">
+     <string>Add Info</string>
+    </property>
+    <addaction name="actionSalesManager_addInfo"/>
+    <addaction name="separator"/>
+    <addaction name="actionManager_addInfo"/>
+    <addaction name="actionSalesman_addInfo"/>
+    <addaction name="actionTechnician_addInfo"/>
+    <addaction name="separator"/>
+    <addaction name="actionOtherTypes_addInfo"/>
+   </widget>
+   <widget class="QMenu" name="menuHelp">
+    <property name="title">
+     <string>Help</string>
+    </property>
+    <widget class="QMenu" name="menuConnect_us">
+     <property name="title">
+      <string>Connect us</string>
+     </property>
+     <addaction name="action3463877866_qq_com"/>
+    </widget>
+    <addaction name="actionView_Source_code"/>
+    <addaction name="menuConnect_us"/>
+   </widget>
+   <widget class="QMenu" name="menuExit">
+    <property name="title">
+     <string>Salary Promote</string>
+    </property>
+    <addaction name="actionSalesManager_SP"/>
+    <addaction name="separator"/>
+    <addaction name="actionManager_SP"/>
+    <addaction name="actionSalesman_SP"/>
+    <addaction name="actionTechnician_SP"/>
+    <addaction name="separator"/>
+    <addaction name="actionOthers_SP"/>
+   </widget>
+   <addaction name="menuFile"/>
+   <addaction name="menuAdd"/>
+   <addaction name="menuExit"/>
+   <addaction name="menuHelp"/>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <action name="actionnew">
+   <property name="text">
+    <string>new</string>
+   </property>
+  </action>
+  <action name="actionNew_file">
+   <property name="text">
+    <string>New</string>
+   </property>
+  </action>
+  <action name="actionOpen_file">
+   <property name="text">
+    <string>Open</string>
+   </property>
+  </action>
+  <action name="actionSalesManager_addInfo">
+   <property name="text">
+    <string>SalesManager</string>
+   </property>
+  </action>
+  <action name="actionManager_addInfo">
+   <property name="text">
+    <string>Manager</string>
+   </property>
+  </action>
+  <action name="actionSalesman_addInfo">
+   <property name="text">
+    <string>Salesman</string>
+   </property>
+  </action>
+  <action name="actionTechnician_addInfo">
+   <property name="text">
+    <string>Technician</string>
+   </property>
+  </action>
+  <action name="actionOthers">
+   <property name="text">
+    <string>Others</string>
+   </property>
+  </action>
+  <action name="actionSalesManager_search">
+   <property name="text">
+    <string>SalesManager</string>
+   </property>
+  </action>
+  <action name="actionManager_search">
+   <property name="text">
+    <string>Manager</string>
+   </property>
+  </action>
+  <action name="actionSalesman_search">
+   <property name="text">
+    <string>Salesman</string>
+   </property>
+  </action>
+  <action name="actionTechnician_search">
+   <property name="text">
+    <string>Technician</string>
+   </property>
+  </action>
+  <action name="actionAll_Employees">
+   <property name="text">
+    <string>All Employees</string>
+   </property>
+  </action>
+  <action name="actionOld_Path">
+   <property name="text">
+    <string>Old Path</string>
+   </property>
+  </action>
+  <action name="actionNew_Path">
+   <property name="text">
+    <string>New Path</string>
+   </property>
+  </action>
+  <action name="actionOtherTypes_addInfo">
+   <property name="text">
+    <string>Other Types</string>
+   </property>
+  </action>
+  <action name="actionAllEmployees_search">
+   <property name="text">
+    <string>All Employees</string>
+   </property>
+  </action>
+  <action name="actionView_Source_code">
+   <property name="text">
+    <string>View Source code</string>
+   </property>
+  </action>
+  <action name="action3463877866_qq_com">
+   <property name="text">
+    <string>3463877866@qq.com</string>
+   </property>
+  </action>
+  <action name="actionSalesManager_SP">
+   <property name="text">
+    <string>SalesManager</string>
+   </property>
+  </action>
+  <action name="actionManager_SP">
+   <property name="text">
+    <string>Manager</string>
+   </property>
+  </action>
+  <action name="actionSalesman_SP">
+   <property name="text">
+    <string>Salesman</string>
+   </property>
+  </action>
+  <action name="actionTechnician_SP">
+   <property name="text">
+    <string>Technician</string>
+   </property>
+  </action>
+  <action name="actionOthers_SP">
+   <property name="text">
+    <string>Others</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>fileOperationWindow</class>
+ <widget class="QMainWindow" name="fileOperationWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1000</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QTextEdit" name="textedit_fileWindow">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>10</y>
+      <width>1000</width>
+      <height>600</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>1000</width>
+      <height>600</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>1000</width>
+      <height>600</height>
+     </size>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1000</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="Select">
+    <property name="title">
+     <string>Select</string>
+    </property>
+    <addaction name="actionBack_fileWindow"/>
+    <addaction name="actionNewPath_fileWindow_2"/>
+    <addaction name="actionExit_fileWindow"/>
+   </widget>
+   <addaction name="Select"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionOldPath_fileWindow">
+   <property name="text">
+    <string>Old Path</string>
+   </property>
+  </action>
+  <action name="actionNewPath_fileWindow">
+   <property name="text">
+    <string>New Path</string>
+   </property>
+  </action>
+  <action name="actionBack_fileWindow">
+   <property name="text">
+    <string>Back</string>
+   </property>
+  </action>
+  <action name="actionExit_fileWindow">
+   <property name="text">
+    <string>Exit</string>
+   </property>
+  </action>
+  <action name="actionNewPath_fileWindow_2">
+   <property name="text">
+    <string>save</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
